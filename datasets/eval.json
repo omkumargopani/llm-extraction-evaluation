@@ -1,0 +1,362 @@
+[
+  {
+    "id": "order_001",
+    "text": "Rahul Sharma ordered an iPhone 15 for Rs. 65000.",
+    "expected": {
+      "customer_name": "Rahul Sharma",
+      "product": "iPhone 15",
+      "amount": 65000
+    }
+  },
+  {
+    "id": "order_002",
+    "text": "Priya Patel purchased a Samsung S24 for Rs. 72000.",
+    "expected": {
+      "customer_name": "Priya Patel",
+      "product": "Samsung S24",
+      "amount": 72000
+    }
+  },
+  {
+    "id": "order_003",
+    "text": "Amit Shah bought a Lenovo ThinkPad for Rs. 85000.",
+    "expected": {
+      "customer_name": "Amit Shah",
+      "product": "Lenovo ThinkPad",
+      "amount": 85000
+    }
+  },
+  {
+    "id": "order_004",
+    "text": "Neha ordered a wireless mouse. Total price: Rs. 1200.",
+    "expected": {
+      "customer_name": "Neha",
+      "product": "wireless mouse",
+      "amount": 1200
+    }
+  },
+  {
+    "id": "order_005",
+    "text": "Ananya bought a MacBook Air for Rs. 95000.",
+    "expected": {
+      "customer_name": "Ananya",
+      "product": "MacBook Air",
+      "amount": 95000
+    }
+  },
+  {
+    "id": "order_006",
+    "text": "Rahul Sharma purchased an iPhone 15. The receipt does not state a price.",
+    "expected": {
+      "customer_name": "Rahul Sharma",
+      "product": "iPhone 15",
+      "amount": null
+    }
+  },
+  {
+    "id": "order_007",
+    "text": "Priya bought a Samsung S24 for Rs. 72,000, down from Rs. 80,000.",
+    "expected": {
+      "customer_name": "Priya",
+      "product": "Samsung S24",
+      "amount": 72000
+    }
+  },
+  {
+    "id": "order_008",
+    "text": "Aman sold a Samsung S24 to Rahul for Rs. 65,000.",
+    "expected": {
+      "customer_name": "Rahul",
+      "product": "Samsung S24",
+      "amount": 65000
+    }
+  },
+  {
+    "id": "order_009",
+    "text": "Neha considered buying a laptop but never placed an order.",
+    "expected": {
+      "customer_name": null,
+      "product": null,
+      "amount": null
+    }
+  },
+  {
+    "id": "order_010",
+    "text": "Invoice: Customer: Kabir Mehta; Item: wireless keyboard; Amount paid: INR 2,499.",
+    "expected": {
+      "customer_name": "Kabir Mehta",
+      "product": "wireless keyboard",
+      "amount": 2499
+    }
+  },
+  {
+    "id": "order_011",
+    "text": "A tablet was purchased for Rs. 15000. The buyer was not recorded.",
+    "expected": {
+      "customer_name": null,
+      "product": "tablet",
+      "amount": 15000
+    }
+  },
+  {
+    "id": "order_012",
+    "text": "Riya ordered headphones. The listed price was Rs. 3000 but she paid Rs. 2500.",
+    "expected": {
+      "customer_name": "Riya",
+      "product": "headphones",
+      "amount": 2500
+    }
+  },
+  {
+    "id": "order_013",
+    "text": "No customer, product, or payment information is available.",
+    "expected": {
+      "customer_name": null,
+      "product": null,
+      "amount": null
+    }
+  },
+  {
+    "id": "order_014",
+    "text": "Arjun bought a monitor for 12,500 INR on Monday.",
+    "expected": {
+      "customer_name": "Arjun",
+      "product": "monitor",
+      "amount": 12500
+    }
+  },
+  {
+    "id": "order_015",
+    "text": "The seller was Maya. The buyer, Dev, purchased a printer for Rs. 8900.",
+    "expected": {
+      "customer_name": "Dev",
+      "product": "printer",
+      "amount": 8900
+    }
+  },
+  {
+    "id": "order_016",
+    "text": "Customer: Isha; Item: USB cable; Paid: INR 399.",
+    "expected": {
+      "customer_name": "Isha",
+      "product": "USB cable",
+      "amount": 399
+    }
+  },
+  {
+    "id": "order_017",
+    "text": "Tara paid INR 1,799 for a Bluetooth speaker.",
+    "expected": {
+      "customer_name": "Tara",
+      "product": "Bluetooth speaker",
+      "amount": 1799
+    }
+  },
+  {
+    "id": "order_018",
+    "text": "Sahil bought a mouse for Rs. 650; shipping was Rs. 50; total paid Rs. 700.",
+    "expected": {
+      "customer_name": "Sahil",
+      "product": "mouse",
+      "amount": 700
+    }
+  },
+  {
+    "id": "order_019",
+    "text": "Aditi reserved a camera for Rs. 25000 but cancelled before paying.",
+    "expected": {
+      "customer_name": null,
+      "product": null,
+      "amount": null
+    }
+  },
+  {
+    "id": "order_020",
+    "text": "Order completed. Buyer: Noor Khan. Product: office chair. Amount paid: Rs. 5400.",
+    "expected": {
+      "customer_name": "Noor Khan",
+      "product": "office chair",
+      "amount": 5400
+    }
+  },
+  {
+    "id": "order_021",
+    "text": "Vikram purchased a desk lamp. Cost not specified.",
+    "expected": {
+      "customer_name": "Vikram",
+      "product": "desk lamp",
+      "amount": null
+    }
+  },
+  {
+    "id": "order_022",
+    "text": "The headphone purchase by Rehan cost Rs 1,500.",
+    "expected": {
+      "customer_name": "Rehan",
+      "product": "headphone",
+      "amount": 1500
+    }
+  },
+  {
+    "id": "order_023",
+    "text": "The buyer was Sara. Sara purchased a mechanical keyboard for Rs. 4,200.",
+    "expected": {
+      "customer_name": "Sara",
+      "product": "mechanical keyboard",
+      "amount": 4200
+    }
+  },
+  {
+    "id": "order_024",
+    "text": "Rahul returned the iPhone 15 and received a refund of Rs. 65000.",
+    "expected": {
+      "customer_name": null,
+      "product": null,
+      "amount": null
+    }
+  },
+  {
+    "id": "order_025",
+    "text": "A bill for Rs. 999 was paid by Farah for a phone case.",
+    "expected": {
+      "customer_name": "Farah",
+      "product": "phone case",
+      "amount": 999
+    }
+  },
+  {
+    "id": "order_026",
+    "text": "Product: smart watch. Paid: Rs. 3500. Buyer: Kiran.",
+    "expected": {
+      "customer_name": "Kiran",
+      "product": "smart watch",
+      "amount": 3500
+    }
+  },
+  {
+    "id": "order_027",
+    "text": "Raj asked about a monitor listed for Rs. 12000. No transaction happened.",
+    "expected": {
+      "customer_name": null,
+      "product": null,
+      "amount": null
+    }
+  },
+  {
+    "id": "order_028",
+    "text": "Buyer Anil paid Rs. 2,000 for a backpack, not the Rs. 2,400 list price.",
+    "expected": {
+      "customer_name": "Anil",
+      "product": "backpack",
+      "amount": 2000
+    }
+  },
+  {
+    "id": "order_029",
+    "text": "Preeti purchased a gaming headset for Rs. 6,750.",
+    "expected": {
+      "customer_name": "Preeti",
+      "product": "gaming headset",
+      "amount": 6750
+    }
+  },
+  {
+    "id": "order_030",
+    "text": "Received payment of Rs. 1100 for a notebook from Deepa.",
+    "expected": {
+      "customer_name": "Deepa",
+      "product": "notebook",
+      "amount": 1100
+    }
+  },
+  {
+    "id": "order_031",
+    "text": "The invoice says: buyer=Imran; product=external SSD; grand total=INR 7499.",
+    "expected": {
+      "customer_name": "Imran",
+      "product": "external SSD",
+      "amount": 7499
+    }
+  },
+  {
+    "id": "order_032",
+    "text": "Customer Rekha ordered a webcam; payment value was not provided.",
+    "expected": {
+      "customer_name": "Rekha",
+      "product": "webcam",
+      "amount": null
+    }
+  },
+  {
+    "id": "order_033",
+    "text": "A product listing advertises a tablet at Rs. 18000.",
+    "expected": {
+      "customer_name": null,
+      "product": null,
+      "amount": null
+    }
+  },
+  {
+    "id": "order_034",
+    "text": "Shreya acquired a power bank for Rs. 1,299 on sale.",
+    "expected": {
+      "customer_name": "Shreya",
+      "product": "power bank",
+      "amount": 1299
+    }
+  },
+  {
+    "id": "order_035",
+    "text": "At checkout Om paid Rs. 350 for a screen protector.",
+    "expected": {
+      "customer_name": "Om",
+      "product": "screen protector",
+      "amount": 350
+    }
+  },
+  {
+    "id": "order_036",
+    "text": "Nikhil ordered a router for Rs. 3200, but the payment failed and the order was cancelled.",
+    "expected": {
+      "customer_name": null,
+      "product": null,
+      "amount": null
+    }
+  },
+  {
+    "id": "order_037",
+    "text": "Customer: Meera Joshi. Purchased: fitness band. Total paid: Rs. 2,899.",
+    "expected": {
+      "customer_name": "Meera Joshi",
+      "product": "fitness band",
+      "amount": 2899
+    }
+  },
+  {
+    "id": "order_038",
+    "text": "The invoice for a graphics tablet shows Rs. 6200 paid by Asha.",
+    "expected": {
+      "customer_name": "Asha",
+      "product": "graphics tablet",
+      "amount": 6200
+    }
+  },
+  {
+    "id": "order_039",
+    "text": "Rohan bought earbuds for Rs. 2100 and a protective pouch for Rs. 200. Total paid Rs. 2300.",
+    "expected": {
+      "customer_name": "Rohan",
+      "product": "earbuds and protective pouch",
+      "amount": 2300
+    }
+  },
+  {
+    "id": "order_040",
+    "text": "Invoice settled by Nisha for a laptop stand at INR 1,450.",
+    "expected": {
+      "customer_name": "Nisha",
+      "product": "laptop stand",
+      "amount": 1450
+    }
+  }
+]
